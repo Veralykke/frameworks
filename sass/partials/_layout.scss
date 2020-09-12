@@ -1,0 +1,128 @@
+html,
+body
+ {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-size:1rem;
+    background-color:$background-colour;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: $primary-colour-hover;
+    margin-top:4rem;
+    font-size: 0.8em;
+    color: $secondary;
+    height: 165px;
+}
+
+footer a{
+    color:$secondary;
+    align-content: center;
+}
+
+footer a:hover {
+    color: $secondary;
+}
+
+footer i {
+    color: $background-dark;
+    font-size: 1em;
+}
+.footer-info {
+    margin-top: 120px;  
+}
+ .two {
+    margin-top: 76px;
+}
+.tabs-one {
+    border-radius: 15px;
+}
+.product {
+    border-radius: 15px;
+    margin-bottom: 2em;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: $secondary;
+}
+
+.carousel-indicators .data-slide-two {
+    background-color: $primary;
+}
+
+.carousel-img{
+    width: 100%;
+}
+
+.card-img-top{
+    background-size: contain;
+}
+
+
+.card-header{
+    background-color: white;
+}
+
+.page-link {
+    list-style: none;
+}
+
+.list-group-item {
+    background-color: $background-colour;
+    border:none;
+    margin-top: 24px;
+}
+
+
+@media(max-width:767px){
+    .tab-content > .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+
+    .carousel-img{
+        position: relative;
+        right: 25%;
+        width: 150%;
+    }
+}
+
+@media(min-width:768px) {
+    .nav-tabs {
+        display: flex;
+    }
+    
+    .card {
+        border: none;
+    }
+
+    .card .card-header {
+        display:none;
+    }  
+
+    .card .collapse{
+        display:block;
+    }
+}
+
+@media(max-width:1023px) {
+    .flex-form {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .flex-left  {
+    width: 80%;
+    }
+    
+    .right-flex {
+        width: 20%;
+    }
+
+}
+

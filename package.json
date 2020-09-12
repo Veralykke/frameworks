@@ -1,0 +1,17 @@
+{
+  "name": "vera-lykke-kaasen-css-frameworks-ca",
+  "version": "1.0.0",
+  "description": "course assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "course"
+  ],
+  "author": "Vera Kaasen",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}

@@ -1,0 +1,35 @@
+.form-group{
+    background-color:$dark;
+}
+
+.order-md-1{
+    background-color:$dark;
+    padding: 30px;
+    margin-top: 80px;
+    border-radius: 8px;
+    box-shadow: 2px 4px $grey-light;
+    margin-bottom: 65px;
+}
+
+h1{
+    font-size:1.9em;
+    font-family: playfair-Display, serif;
+}
+
+.input-group-text{
+    background-color: $grey-light;
+}
+.form-control{
+    border:1px solid $dark;
+}
+
+.input[type="checkbox"] {
+   visibility: hidden;
+}
+.input[type="checkbox"]:checked {
+    background: red;
+}
+
+.list-group{
+    margin-top: 45px;
+}
